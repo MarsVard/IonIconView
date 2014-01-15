@@ -1,4 +1,3 @@
-
 Usage
 =====
 
@@ -9,7 +8,7 @@ Add this line to the root layout in your xml
 xmlns:ioniconview="http://schemas.android.com/apk/res-auto"
 ```
 
-now you can use iconviews and populate view the with any of (these)[http://ionicons.com] icons
+now you can use iconviews and populate view the with any of [these](http://ionicons.com/) icons
 
 ```xml
 <be.webelite.ion.IconView
@@ -24,13 +23,13 @@ now you can use iconviews and populate view the with any of (these)[http://ionic
 
 Available Icons
 =====
-for a list of available icons please check out (http://ionicons.com)[http://ionicons.com]
+for a list of available icons please check out [ionicons.com](http://ionicons.com/)
 ion-loading becomes ion_loading
 ion-ionic becomes ion_ionic
 
 Credits
 =====
-All credits go out to (http://ionicons.com)[http://ionicons.com]
+All credits go out to [ionicons.com](http://ionicons.com/)
 
 
 Maven Repository
