@@ -1,0 +1,29 @@
+apply plugin: 'android-library'
+apply plugin: 'maven'
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            // Deploy to a local repository
+            repository(url: "file://C://android-studio-projects//ioniconview//maven//")
+            pom.groupId = 'be.webelite'
+            pom.artifactId = 'ion-iconview'
+            pom.version = '1.0.4'
+            pom.packaging = 'aar'
+        }
+    }
+}
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.0.0"
+
+    defaultConfig {
+        minSdkVersion 7
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
+    }
+    release {
+        runProguard false
+        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+    }
+}
