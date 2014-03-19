@@ -44,7 +44,7 @@ To use, add the following to your project's build.gradle file:
 ```gradle
 
 repositories {
-    maven { url 'https://raw.github.com/MarsVard/IonIconView/master' }
+    maven { url 'https://github.com/MarsVard/IonIconView/raw/master/maven' }
 }
 
 dependencies {
